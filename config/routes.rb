@@ -4,4 +4,5 @@ WolframalphaTest::Application.routes.draw do
 
   match 'about' => 'static_pages#about'
 
+  match 'results' => 'wolfram_alpha#show'
 end

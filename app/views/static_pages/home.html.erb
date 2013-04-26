@@ -1,2 +1,7 @@
 <h1>Try out Wolfram Alpha!</h1>
 <p>Try entering a command in the box below, such as "airplanes overhead":</p>
+<%= form_tag :controller => "wolfram_alpha", :action => "show", :method => "get" do %>
+  <%= text_field_tag(:query) %>
+  <br/>
+  <%= submit_tag "Submit", class: "btn btn-medium" %>
+<% end %>
