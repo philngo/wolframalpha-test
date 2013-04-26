@@ -187,6 +187,7 @@ DEPENDENCIES
   jquery-rails (= 2.0.2)
   less-rails (= 2.3.3)
   newrelic_rpm (= 3.5.5.38)
+  nokogiri
   pg (= 0.12.2)
   pry (= 0.9.10)
   rails (= 3.2.11)

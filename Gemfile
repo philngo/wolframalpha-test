@@ -8,6 +8,7 @@ gem 'bcrypt-ruby', '3.0.1'
 gem 'jquery-rails', '2.0.2'
 gem 'pry', '0.9.10'
 gem 'newrelic_rpm', '3.5.5.38'
+gem 'nokogiri'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
