@@ -1,8 +1,8 @@
 class WolframAlphaController < ApplicationController
 
   def show
-    Wac.appid = "4WJWEU-3GXRETEUYW"
-    @r = Wac.fetch params['query']
+    s = Wac.new "4WJWEU-3GXRETEUYW", :format => 'html'
+    @r = s.fetch params['query']
   end
 
 end
