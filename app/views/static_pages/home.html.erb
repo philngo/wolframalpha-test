@@ -1,5 +1,5 @@
 <h1>Try out Wolfram Alpha!</h1>
-<p>Enter what you want to calculate or know about, such as "airplanes overhead":</p>
+<p>Enter what you want to calculate or know about, such as "airplanes overhead" or "3d plot x^2+y^2":</p>
 <%= form_tag :controller => "wolfram_alpha", :action => "show", :method => "get" do %>
   <%= text_field_tag(:query) %>
   <br/>
